@@ -1,0 +1,10 @@
+load poems/test2/test2
+make_it_friendlier
+uppercase
+trimming
+make_it_rhyme imperecheata
+make_it_silly 0.5
+uppercase
+trimming
+print
+quit

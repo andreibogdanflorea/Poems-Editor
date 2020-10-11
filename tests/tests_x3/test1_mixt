@@ -1,0 +1,8 @@
+load poems/test3/test3
+trimming
+make_it_silly 0.8
+print
+uppercase
+make_it_silly 0.2
+print
+quit

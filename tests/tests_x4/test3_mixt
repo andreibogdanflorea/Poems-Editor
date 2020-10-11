@@ -1,0 +1,69 @@
+load poems/test4/test4
+uppercase
+print
+trimming
+make_it_silly 0.4
+make_it_rhyme incrucisata
+trimming
+print
+make_it_friendlier
+make_it_silly 0.4
+make_it_friendlier
+uppercase
+make_it_silly 0.1
+make_it_rhyme incrucisata
+uppercase
+trimming
+print
+make_it_rhyme imperecheata
+uppercase
+make_it_silly 0.6
+trimming
+print
+make_it_rhyme imperecheata
+make_it_silly 0.0
+trimming
+print
+uppercase
+make_it_silly 0.2
+trimming
+print
+make_it_rhyme imbratisata
+make_it_silly 1.0
+uppercase
+trimming
+make_it_friendlier
+make_it_rhyme imperecheata
+uppercase
+make_it_silly 0.1
+make_it_friendlier
+uppercase
+print
+make_it_rhyme incrucisata
+trimming
+make_it_silly 0.9
+uppercase
+make_it_friendlier
+trimming
+print
+make_it_rhyme imperecheata
+make_it_silly 0.8
+print
+trimming
+make_it_silly 0.4
+print
+make_it_friendlier
+uppercase
+make_it_silly 0.9
+make_it_friendlier
+uppercase
+make_it_rhyme imperecheata
+print
+make_it_friendlier
+make_it_rhyme imperecheata
+print
+make_it_silly 0.1
+make_it_friendlier
+uppercase
+print
+quit

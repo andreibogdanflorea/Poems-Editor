@@ -1,0 +1,4 @@
+load poems/test1/test1
+make_it_silly 0.7
+print
+quit

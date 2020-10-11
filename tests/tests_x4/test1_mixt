@@ -1,0 +1,10 @@
+load poems/test4/test4
+make_it_rhyme incrucisata
+uppercase
+trimming
+make_it_silly 0.7
+make_it_rhyme imperecheata
+print
+trimming
+uppercase
+quit

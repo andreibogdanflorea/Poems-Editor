@@ -1,0 +1,65 @@
+Florea Andrei-Bogdan, 313CD
+
+Cerinta 0
+
+Am implementat consola interactiva folosind un while (1). Am citit in acesta
+un sir de caractere reprezentand comanda. Am separat comanda cu strtok pana 
+la primul spatiu, si am comparat sirul obtinut cu fiecare dintre comenzile 
+date. Daca se potriveau, faceam cerinta respectiva (sau incarcam poemul 
+cerut), iar daca era comanda quit, ieseam din while cu break.
+Daca o comanda mai primea un parametru (load, make_it_silly, make_it_rhyme),
+aflam acel parametru luand urmatorul token cu strtok.
+
+Cerinta 1
+
+Am parcurs poemul. Daca pozitia curenta era un inceput de vers (inceputul
+poeziei, sau caracterul precedent este \n), transormam litera in majuscula.
+Altfel, o faceam litera mica (ambele folosind functiile tolower si toupper).
+
+Cerinta 2
+
+Am folosit un alt sir, constuit pe parcurs, pe baza poemului. Am selectat
+doar cuvintele din poem, si le-am adaugat sirului nou (fara caracterele de
+punctuatie). La final, am copiat sirul nou construit peste poem.
+
+Cerinta 3
+
+Am parcurs poemul. Pentru fiecare litera, am generat acel sample si, daca
+era mai mic decat probabilitatea din comanda, faceam schimbarea
+majuscula <---> minuscula. (cu +-32).
+
+Cerinta 4
+
+Parcurgand poemul, am format cate un cuvant pe rand (nu mai merge cu strtok,
+pentru ca trebuia pastrata punctuatia). Dupa ce intalneam un caracter care
+nu era litera, cautam folosind functia din task_helper daca exista un
+diminutiv pentru cuvantul format curent. Daca exista, il adaugam intr-un sir
+nou format. Daca nu, adaugam cuvantul normal. De asemenea, adaugam in sirul
+nou si caracterele care nu erau litere.
+La final, am copiat sirul nou format in poem.
+
+Cerinta 5
+
+In rezolvarea acestei cerinte, am folosit urmatoarele functii:
+    createVerse - o functie de selectare a unui vers dintr-un poem, care 
+de asemenea returneaza prin intermediul parametrilor lungimea acestui vers
+si pozitia din poem a finalului versului.
+    lastWord - o functie care selecteaza ultimul cuvant dintr-un vers, si 
+returneaza prin intermediul parametrilor pozitia de start si de final al 
+acelui cuvant
+    make_rhyme - o functie care selecteaza sinonimul potrivit, avand cele 
+doua ultime cuvinte dintr-un vers si listele lor de sinonime. De asemenea,
+functia returneaza printr-un parametru pentru care dintre cuvinte s-a 
+selectat acest sinonim.
+    addWithSynonym - o functie de a adauga intr-un poem nou format un vers,
+in care ultimul cuvant este inlocuit cu un sinonim selectat
+    addWithoutSynonym - o functie care adauga in poemul nou format un vers
+
+In rezolvarea mea, am creat un poem nou. Am parcurs poemul dat, si am
+selectat cate 4 versuri folosind functia createVerse. Din aceste versuri,
+am selectat ultimele cuvinte, folosind lastWord. Am umplut listele de
+sinonime ale acestor cuvinte cu functia din task_helper. Apoi, in functie 
+de tipul rimei, am folosit functia make_rhyme pentru a selecta cele doua
+sinonime: cate unul pentru fiecare grupare de 2 versuri care trebuie sa
+rimeze. Folosind functiile addWithSynonym si addWithoutSynonym, am construit
+un nou poem, pe care, la final, l-am copiat peste poemul initial.

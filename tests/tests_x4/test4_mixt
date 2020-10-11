@@ -1,0 +1,193 @@
+load poems/test4/test4
+uppercase
+make_it_friendlier
+trimming
+make_it_rhyme imperecheata
+make_it_friendlier
+uppercase
+make_it_silly 0.7
+print
+make_it_friendlier
+uppercase
+make_it_rhyme incrucisata
+make_it_silly 0.1
+make_it_rhyme incrucisata
+make_it_friendlier
+print
+trimming
+make_it_friendlier
+make_it_silly 0.5
+print
+make_it_rhyme incrucisata
+make_it_silly 0.8
+make_it_friendlier
+uppercase
+make_it_silly 0.5
+make_it_friendlier
+print
+trimming
+uppercase
+print
+trimming
+uppercase
+make_it_silly 0.0
+uppercase
+make_it_friendlier
+print
+trimming
+make_it_friendlier
+make_it_silly 0.9
+print
+trimming
+make_it_silly 0.4
+make_it_friendlier
+uppercase
+make_it_rhyme imbratisata
+make_it_silly 0.3
+uppercase
+make_it_rhyme imbratisata
+make_it_friendlier
+trimming
+print
+uppercase
+make_it_silly 0.3
+make_it_friendlier
+print
+make_it_rhyme imbratisata
+trimming
+make_it_friendlier
+print
+make_it_silly 0.5
+make_it_rhyme imbratisata
+uppercase
+make_it_silly 0.4
+make_it_rhyme incrucisata
+make_it_friendlier
+print
+make_it_rhyme imbratisata
+make_it_silly 0.6
+trimming
+print
+make_it_friendlier
+make_it_rhyme imperecheata
+trimming
+uppercase
+make_it_rhyme imperecheata
+trimming
+print
+make_it_silly 0.8
+make_it_friendlier
+make_it_rhyme imbratisata
+trimming
+make_it_silly 0.3
+trimming
+make_it_rhyme imperecheata
+uppercase
+print
+trimming
+make_it_rhyme incrucisata
+print
+uppercase
+make_it_silly 0.8
+uppercase
+make_it_friendlier
+make_it_rhyme imbratisata
+make_it_friendlier
+print
+uppercase
+make_it_friendlier
+trimming
+uppercase
+make_it_rhyme incrucisata
+trimming
+make_it_friendlier
+make_it_silly 0.4
+print
+trimming
+make_it_rhyme imbratisata
+uppercase
+make_it_silly 0.2
+print
+uppercase
+trimming
+print
+make_it_silly 0.6
+uppercase
+make_it_friendlier
+make_it_rhyme imperecheata
+uppercase
+make_it_friendlier
+print
+make_it_silly 0.7
+make_it_friendlier
+uppercase
+print
+make_it_friendlier
+trimming
+make_it_friendlier
+uppercase
+make_it_silly 0.1
+print
+trimming
+make_it_rhyme incrucisata
+make_it_friendlier
+uppercase
+trimming
+make_it_rhyme imperecheata
+make_it_friendlier
+make_it_silly 0.9
+make_it_silly 0.2
+uppercase
+make_it_rhyme imperecheata
+trimming
+make_it_rhyme incrucisata
+make_it_silly 0.2
+trimming
+make_it_rhyme incrucisata
+make_it_silly 0.3
+print
+make_it_silly 0.8
+make_it_rhyme incrucisata
+make_it_friendlier
+trimming
+uppercase
+make_it_rhyme imbratisata
+print
+make_it_friendlier
+make_it_rhyme imperecheata
+trimming
+print
+make_it_silly 0.0
+make_it_rhyme imperecheata
+uppercase
+make_it_friendlier
+print
+make_it_rhyme incrucisata
+make_it_silly 0.8
+trimming
+make_it_rhyme incrucisata
+uppercase
+make_it_friendlier
+print
+make_it_rhyme imperecheata
+uppercase
+trimming
+make_it_friendlier
+print
+make_it_rhyme incrucisata
+make_it_friendlier
+print
+make_it_silly 0.9
+uppercase
+trimming
+trimming
+uppercase
+make_it_silly 0.7
+print
+make_it_friendlier
+trimming
+make_it_silly 0.4
+uppercase
+make_it_rhyme imbratisata
+print
+quit

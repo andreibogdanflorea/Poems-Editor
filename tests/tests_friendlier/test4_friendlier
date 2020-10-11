@@ -1,0 +1,4 @@
+load poems/test4/test4
+make_it_friendlier
+print
+quit

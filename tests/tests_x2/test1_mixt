@@ -1,0 +1,7 @@
+load poems/test2/test2
+print
+make_it_friendlier
+trimming
+uppercase
+make_it_rhyme imbratisata
+quit
